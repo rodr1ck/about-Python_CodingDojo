@@ -1,0 +1,126 @@
+/* Author: Rodrigo Orellana */
+body * {
+    margin: 0px;
+    padding: 0px;
+   }
+.wrapper{
+    width: 970px;
+    margin: 0x auto; 
+}
+.header{
+    margin: 0x auto; 
+    background-color: #245076;
+}
+.headerLeft{
+    display: inline-block;
+}
+.headerRight{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 400px;
+}
+.hrBottom{
+    padding: 10px;
+    background-color: #444444;
+    border-radius: 15px;
+}
+.navbar ul{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.navbar ul li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.underNavLeft{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    margin-left: 30px;
+}
+.underNavLeft ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+.underNavLeft ul li a{
+    color: white;
+}
+.underNavRight{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    text-align: center;
+}
+.underNavRight p{
+    color: white;
+}
+.underNavRight ul li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+.underNavRightYellow{
+    color:yellow;
+    font-size: 1.5rem;
+}
+.underNavRightWhite{
+    color:white;
+}
+
+.main_content {
+    margin: 0x auto;   
+    text-align: center;
+    margin-bottom: 10px;
+}
+.middleContentLeft{
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+}
+.blueSpace{
+    background-color: #245076;
+    min-height: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.middleContentLeft ul{
+    padding: 0 40px;
+}
+.middleContentLeft ul li{
+    list-style-type: square;
+    color:blue;
+}
+.middleContentRight{
+    display: inline-block;
+    width: 450px;
+}
+.middleContentRight ul{
+    padding: 0 40px;
+    margin: 3px;
+}
+.middleContentRight ul li{
+    list-style-type: square;
+    color:blue;
+}
+.footer {
+    margin: 0x auto;   
+    background-color: #245076;
+    color:white;
+    text-align: center;
+}
+.footer ul{
+    padding: 20px 0px 5px;
+}
+.footer ul li{
+    display: inline-block;  
+}
+.footer h3{
+    font-size: 0.7rem;
+}
+
